@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Poppins,Ubuntu-Regular,Ubuntu-Bold, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("./Assets/Fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url("./Assets/Fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url("./Assets/Fonts/Ubuntu-Bold.ttf");
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+
+
