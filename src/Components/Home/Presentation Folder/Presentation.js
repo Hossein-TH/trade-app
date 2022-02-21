@@ -86,9 +86,9 @@ const Presentation = () => {
                             "delay": 5500,
                             "disableOnInteraction": false
                         }}>
-                            <SwiperSlide><img src={pic1} className={classes.Image}/></SwiperSlide>
-                            <SwiperSlide><img src={pic2} className={classes.Image}/></SwiperSlide>
-                            <SwiperSlide><img src={pic3} className={classes.Image}/></SwiperSlide>
+                            <SwiperSlide><img alt="picture1" src={pic1} className={classes.Image}/></SwiperSlide>
+                            <SwiperSlide><img alt="picture2" src={pic2} className={classes.Image}/></SwiperSlide>
+                            <SwiperSlide><img alt="picture3" src={pic3} className={classes.Image}/></SwiperSlide>
                         </Swiper>
                     </Grid>
                 </Grid>

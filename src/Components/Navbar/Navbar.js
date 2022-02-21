@@ -58,14 +58,7 @@ const Navbar = (props) => {
                                 </NavbarLinks>
                             </NavItem>
                             <NavItem>
-                                <NavbarLinks onClick={closeMobileMenu} to="/Tutorial-Page" activeStyle={{color: "#1d1f44"}}>
-                                    <Button style={ButtonStyle} size="large" variant="text">
-                                        Learn
-                                    </Button>
-                                </NavbarLinks>
-                            </NavItem>
-                            <NavItem>
-                                <NavbarLinks onClick={closeMobileMenu} to="/Download-Page" activeStyle={{borderBottom: "1px dashed #fff"}}>
+                                <NavbarLinks onClick={closeMobileMenu} to="/Download-Page">
                                     <Button color="primary" variant="contained" style={{textTransform: "none"}}>
                                         Download App
                                     </Button>
